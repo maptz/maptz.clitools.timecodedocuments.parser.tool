@@ -1,0 +1,15 @@
+
+X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\appsettings.json-0a2b2160a23d715d7191e8ec4121089b
+X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Implementations\AppSettings.cs-7ce00b3f5628eee19cb18f000a1978c4
+X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Implementations\CLIProgramRunner.cs-1cb163af1fed38ee81a3e7e3bf83ee1f
+X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Implementations\Program.cs-065a70ab84c325c72ef56644117e6204
+X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Maptz.CliTools.TimeCodeDocument.Parser.Tool.csproj-d9d883f2503648d2faa684051d0f79bf
+
+DEPENDENCY:X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Engine\Maptz.CliTools.TimeCodeDocument.Parser.Engine.csproj
+
+X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Engine\Concepts\IParserEngine.cs-aa10bd8f6150d68bf1fbe681f181fa7b
+X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Engine\Implementations\ParserEngine.cs-12b51d9d02da61e9e6c8603d457db373
+X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Engine\Maptz.CliTools.TimeCodeDocument.Parser.Engine.csproj-017b222dc296f691a2fd43f6b13a7d78
+
+
+END_DEPENDENCY:X:\+++DEV\MaptzBitBucket\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Engine\Maptz.CliTools.TimeCodeDocument.Parser.Engine.csproj
