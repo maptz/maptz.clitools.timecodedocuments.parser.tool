@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Maptz.CliTools.TimeCodeDocument.Parser.Tool": {
+      "commandName": "Project",
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\Desktop\\COMPARE\\english.txt\""
+    }
+  }
+}
