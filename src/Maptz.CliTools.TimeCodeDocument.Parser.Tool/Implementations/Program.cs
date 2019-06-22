@@ -34,7 +34,7 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Tool
             );
             serviceCollection.Configure<TimeCodeDocumentTimeValidatorSettings>(settings =>
             {
-                settings.DefaultDurationFrames = 10;
+                settings.DefaultDurationFrames = 40;
             }
 
             );
