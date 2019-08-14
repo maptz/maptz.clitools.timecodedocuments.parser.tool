@@ -2,7 +2,7 @@
   "profiles": {
     "Maptz.CliTools.TimeCodeDocument.Parser.Tool": {
       "commandName": "Project",
-      "commandLineArgs": "convert -i \"C:\\Users\\steph\\Google Drive\\_SMALL RESX\\Films\\++CURRENT\\AFGHAN TRAP\\translationsandtranscripts\\NEW TEXT 20190611\\Interview_Gulbudin Hekmatyar_Dari-ENG_20190424 (1).txt.out\""
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\Google Drive\\_SMALL RESX\\Films\\++CURRENT\\AFGHAN TRAP\\TRANSLATIONS\\TRANSLATIONS - IN - 20190723\\RUSSIAN\\NFR 047__fs38215__The New Day Of Afghanistan  R1__Afghanistan 1978.md.out\""
     }
   }
 }
