@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Maptz.Editing.TimeCodeDocuments.Converters.All;
 using Maptz.Editing.TimeCodeDocuments.StringDocuments;
 using Maptz.Editing.TimeCodeDocuments;
+using Microsoft.Extensions.Logging;
 
 namespace Maptz.CliTools.TimeCodeDocument.Parser.Tool
 {
@@ -25,6 +26,12 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Tool
             serviceCollection.AddTransient<IParserEngine, ParserEngine>();
             serviceCollection.AddOptions();
             serviceCollection.AddLogging();
+
+            serviceCollection.AddLogging(loggingBuilder => 
+                loggingBuilder.AddConfiguration(Configuration.GetSection("Logging"))
+                                           .AddConsole()
+                                           .AddDebug());
+
             serviceCollection.AddTimeCodeDocumentConverters();
             serviceCollection.Configure<TimeCodeStringDocumentParserSettings>(settings =>
             {
