@@ -2,7 +2,7 @@
   "profiles": {
     "Maptz.CliTools.TimeCodeDocument.Parser.Tool": {
       "commandName": "Project",
-      "commandLineArgs": "convert -i \"C:\\Users\\steph\\Google Drive\\_SMALL RESX\\Films\\++CURRENT\\AFGHAN MAYOR\\TRANSLATIONS\\RECEIVED\\20200207 - JALAL\\reunscrypttranslations\\551_01.01_00D.txt\""
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\Google Drive\\_SMALL RESX\\Films\\++CURRENT\\AFGHAN MAYOR\\TRANSLATIONS\\RECEIVED\\20200208 - SORAYA\\551_03.01_00B.500k.txt\""
     }
   }
 }
