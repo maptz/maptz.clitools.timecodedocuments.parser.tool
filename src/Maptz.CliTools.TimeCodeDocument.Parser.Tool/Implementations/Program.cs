@@ -31,7 +31,7 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Tool
                 loggingBuilder.AddConfiguration(Configuration.GetSection("Logging"))
                                            .AddConsole()
                                            .AddDebug());
-
+            //ss
             serviceCollection.AddTimeCodeDocumentConverters();
             serviceCollection.Configure<TimeCodeStringDocumentParserSettings>(settings =>
             {
