@@ -2,7 +2,7 @@
   "profiles": {
     "Maptz.CliTools.TimeCodeDocument.Parser.Tool": {
       "commandName": "Project",
-      "commandLineArgs": "convert -i \"C:\\Users\\steph\\Google Drive\\_SMALL RESX\\Films\\++CURRENT\\AFGHAN MAYOR\\TRANSLATIONS\\RECEIVED\\20200402 - SABOOR\\translatedfiles\\Part 3\\551_11s_00E.500k.BITC.txt\""
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\OneDrive\\Shared\\TANJA\\TRANSCRIPTS\\20200618 - STELLA\\TANJA - TRANSLATING.txt\""
     }
   }
 }
