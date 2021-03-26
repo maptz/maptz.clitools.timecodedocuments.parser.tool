@@ -2,7 +2,7 @@
   "profiles": {
     "Maptz.CliTools.TimeCodeDocument.Parser.Tool": {
       "commandName": "Project",
-      "commandLineArgs": "convert -i \"C:\\Users\\steph\\OneDrive\\Desktop\\TRANC3\\JW ASSEMBLIES.00.01.11 - SYNC ONLY.wav.ds.txt\""
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\OneDrive\\Desktop\\New folder\\A_utkast_NFI_18.01.21.txt\" -m \"finalcutxml\""
     }
   }
 }
