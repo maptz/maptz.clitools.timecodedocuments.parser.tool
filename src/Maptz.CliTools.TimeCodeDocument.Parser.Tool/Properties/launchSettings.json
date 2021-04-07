@@ -2,7 +2,7 @@
   "profiles": {
     "Maptz.CliTools.TimeCodeDocument.Parser.Tool": {
       "commandName": "Project",
-      "commandLineArgs": "convert -i \"C:\\Users\\steph\\Google Drive\\_SMALL RESX\\Films\\++CURRENT\\AFGHAN TRAP\\translationsandtranscripts\\NEW TEXT 20190611\\Interview_Gulbudin Hekmatyar_Dari-ENG_20190424 (1).txt.out\""
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\OneDrive\\Desktop\\AFGHANISTAN\\EPISODE 4 TRANSLATION CHAOS\\jman\\PASS 2\\_FOR DS\\JMAN 0009.ref.txt\""
     }
   }
 }
