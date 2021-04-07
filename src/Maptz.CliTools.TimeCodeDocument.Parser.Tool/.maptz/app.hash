@@ -1,17 +1,10 @@
 
 X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\appsettings.json-d8425f460e99d421924cf56014419c41
 X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Implementations\AppSettings.cs-7ce00b3f5628eee19cb18f000a1978c4
-<<<<<<< HEAD
-X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Implementations\CLIProgramRunner.cs-1cb163af1fed38ee81a3e7e3bf83ee1f
-X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Implementations\Program.cs-fd297c4bbd26355534b85fbb704c4872
-X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Maptz.CliTools.TimeCodeDocument.Parser.Tool.csproj-39c26f581989e624f18a074fc1beee78
-X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Properties\launchSettings.json-bd69c2365f4d9ba7b798af051dbaf10d
-=======
 X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Implementations\CLIProgramRunner.cs-414f72d2a48b108d84877ecf368cd140
 X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Implementations\Program.cs-473db10004dc0deac0bf2f31872ea6fd
-X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Maptz.CliTools.TimeCodeDocument.Parser.Tool.csproj-77d6455af20fa40bcd904c69901f4b94
+X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Maptz.CliTools.TimeCodeDocument.Parser.Tool.csproj-9b0020392a048736e5cc124de7bed976
 X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Tool\Properties\launchSettings.json-c656f8097ed28bd40b90aeb1119252cd
->>>>>>> b556750cf850072b6f987496c6a73150cf6967d6
 
 DEPENDENCY:X:\+++DEV\MaptzGitHub\netcoretools\maptz.clitools.timecodedocuments.parser.tool\src\Maptz.CliTools.TimeCodeDocument.Parser.Engine\Maptz.CliTools.TimeCodeDocument.Parser.Engine.csproj
 

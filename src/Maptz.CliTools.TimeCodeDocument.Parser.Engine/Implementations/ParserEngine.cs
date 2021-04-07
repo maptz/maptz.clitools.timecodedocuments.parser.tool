@@ -1,7 +1,9 @@
 ﻿using Maptz.Editing.TimeCodeDocuments;
 using Maptz.Editing.TimeCodeDocuments.Converters.All;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Maptz.CliTools.TimeCodeDocument.Parser.Engine
@@ -31,30 +33,41 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Engine
             }
 
             IStreamableResult result = null;
+            var warnings = new List<string>();
             switch (converterTypeStr?.ToLower())
             {
                 case "avidds":
                     var avidParser = await TimeCodeDocumentConverters.GetAvidDSParserAsync(this.ServiceProvider);
-                    result = avidParser.Parse(sourceText);
+                    result = avidParser.Parse(sourceText, warnings);
                     break;
                 case "finalcutxml":
                     var fcpParser = await TimeCodeDocumentConverters.GetFinalCutParserAsync(this.ServiceProvider);
-                    result = fcpParser.Parse(sourceText);
+                    result = fcpParser.Parse(sourceText, warnings);
                     break;
                 case "markdown":
                     var markdownParser = await TimeCodeDocumentConverters.GetMarkdownParserAsync(this.ServiceProvider);
-                    result = markdownParser.Parse(sourceText);
+                    result = markdownParser.Parse(sourceText, warnings);
                     break;
                 case "smptett":
                     var smptettParser = await TimeCodeDocumentConverters.GetSMPTETTParserAsync(this.ServiceProvider);
-                    result = smptettParser.Parse(sourceText);
+                    result = smptettParser.Parse(sourceText, warnings);
                     break;
                 case "srt":
                     var srtParser = await TimeCodeDocumentConverters.GetSRTParserAsync(this.ServiceProvider);
-                    result = srtParser.Parse(sourceText);
+                    result = srtParser.Parse(sourceText, warnings);
                     break;
                 default:
                     throw new NotSupportedException();
+            }
+
+            if (warnings.Any())
+            {
+                var warningsFilePath = Path.Combine(Path.GetDirectoryName(inputFilePath), Path.GetFileNameWithoutExtension(inputFilePath) + ".warnings.txt");
+                using (var sw = File.CreateText(warningsFilePath))
+                {
+                    var warningsContent = string.Join(Environment.NewLine, warnings);
+                    sw.Write(warningsContent);
+                }
             }
 
             this.Save(inputFilePath, result);

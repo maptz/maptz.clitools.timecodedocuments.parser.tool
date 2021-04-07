@@ -2,7 +2,11 @@
   "profiles": {
     "Maptz.CliTools.TimeCodeDocument.Parser.Tool": {
       "commandName": "Project",
+<<<<<<< HEAD
       "commandLineArgs": "convert -i \"C:\\Users\\steph\\OneDrive\\Desktop\\AFGHANISTAN\\EPISODE 4 TRANSLATION CHAOS\\jman\\PASS 2\\_FOR DS\\JMAN 0009.ref.txt\""
+=======
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\OneDrive\\Desktop\\New folder\\A_utkast_NFI_18.01.21.txt\" -m \"finalcutxml\""
+>>>>>>> b556750cf850072b6f987496c6a73150cf6967d6
     }
   }
 }
