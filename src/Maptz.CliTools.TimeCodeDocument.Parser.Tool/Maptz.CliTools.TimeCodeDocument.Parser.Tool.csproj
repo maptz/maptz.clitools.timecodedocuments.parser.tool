@@ -2,14 +2,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>mparse</ToolCommandName>
-<<<<<<< HEAD
-    <Version>0.0.5</Version>
-=======
-    <Version>0.0.20</Version>
->>>>>>> b556750cf850072b6f987496c6a73150cf6967d6
+    <Version>0.0.21</Version>
   </PropertyGroup>
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />

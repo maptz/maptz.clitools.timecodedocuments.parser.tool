@@ -5,7 +5,7 @@
     <Version>0.0.6</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Maptz.Console.Base" Version="0.0.7" />
+    <PackageReference Include="Maptz.Console.Base" Version="0.0.8" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\netcorelibs\maptz.editing.timecodedocuments\src\Maptz.Editing.TimeCodeDocuments.Converters.All\Maptz.Editing.TimeCodeDocuments.Converters.All.csproj" />
