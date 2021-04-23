@@ -7,6 +7,6 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Engine
 
     public interface IParserEngine
     {
-        Task ParseAsync(string inputFilePath, string converterTypeStr);
+        Task ParseAsync(string inputFilePath, string converterTypeStr, string outputFilePath);
     }
 }

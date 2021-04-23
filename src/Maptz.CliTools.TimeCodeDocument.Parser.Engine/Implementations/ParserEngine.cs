@@ -16,8 +16,10 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Engine
             this.ServiceProvider = serviceProvider;
         }
 
-        public async Task ParseAsync(string inputFilePath, string converterTypeStr)
+        public async Task ParseAsync(string inputFilePath, string converterTypeStr, string outputFilePath)
         {
+
+            
             string sourceText;
             var fileInfo = new FileInfo(inputFilePath);
             if (!fileInfo.Exists)
@@ -70,12 +72,15 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Engine
                 }
             }
 
-            this.Save(inputFilePath, result);
+            var actualOutputFilePath = string.IsNullOrEmpty(outputFilePath) ?
+                Path.Combine(Path.GetDirectoryName(inputFilePath), Path.GetFileNameWithoutExtension(inputFilePath) + result.DefaultFileExtension) 
+                : outputFilePath;
+
+            this.Save(actualOutputFilePath, result);
         }
 
-        private void Save(string inputFilePath, IStreamableResult result)
+        private void Save(string outputFilePath, IStreamableResult result)
         {
-            var outputFilePath = Path.Combine(Path.GetDirectoryName(inputFilePath), Path.GetFileNameWithoutExtension(inputFilePath) + result.DefaultFileExtension);
             var outputFileInfo = new FileInfo(outputFilePath);
             using (var fs = File.Create(outputFilePath))
             {

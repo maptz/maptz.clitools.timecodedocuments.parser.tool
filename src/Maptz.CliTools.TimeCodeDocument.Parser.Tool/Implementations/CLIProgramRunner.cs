@@ -61,11 +61,13 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Tool
                 {
                     var modeOption = config.Option("-m|--mode <conversionMode>", $"The conversion mode.", CommandOptionType.SingleValue);
                     var inputFilePathOption = config.Option("-i|--inputFilePath <inputFilePath>", $"The file to convert", CommandOptionType.SingleValue);
+                    var outputFilePathOption = config.Option("-o|--outputFilePath <outputFilePath>", $"The output file path", CommandOptionType.SingleValue);
                     config.OnExecute(async () =>
                     {
                         var inputFilePath = inputFilePathOption.HasValue() ? inputFilePathOption.Value() : this.AppSettings.InputFilePath;
+                        var outputFilePath = outputFilePathOption.HasValue() ? outputFilePathOption.Value() : null;
                         var mode = modeOption.HasValue() ? modeOption.Value() : this.AppSettings.Mode.ToString();
-                        await this.ParserEngine.ParseAsync(inputFilePath, mode);
+                        await this.ParserEngine.ParseAsync(inputFilePath, mode, outputFilePath);
                         return 0;
                     }
 
