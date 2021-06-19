@@ -6,6 +6,9 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>mparse</ToolCommandName>
     <Version>0.0.22</Version>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>    
   </PropertyGroup>
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />

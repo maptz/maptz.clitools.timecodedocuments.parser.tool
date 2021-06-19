@@ -55,7 +55,13 @@ namespace Maptz.CliTools.TimeCodeDocument.Parser.Tool
             {
                 CommandLineApplication cla = new CommandLineApplication(throwOnUnexpectedArg: false);
                 cla.HelpOption("-?|-h|--help");
+                cla.ShowInHelpText = true;
                 cla.Description = "A tool for converting loose timecode documents into various forms of timecoded files.";
+                //cla.OptionHelp.Description = "A tool for converting loose timecode documents into various forms of timecoded files.";
+                //cla.ExtendedHelpText = "A tool for converting loose timecode documents into various forms of timecoded files."; ;
+                Console.WriteLine("A tool for converting loose timecode documents into various forms of timecoded files.");
+                Console.WriteLine("============");
+                Console.WriteLine();
                 /* #region get */
                 cla.Command("convert", config =>
                 {

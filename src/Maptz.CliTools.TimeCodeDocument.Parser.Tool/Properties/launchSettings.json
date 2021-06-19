@@ -2,7 +2,7 @@
   "profiles": {
     "Start": {
       "commandName": "Project",
-      "commandLineArgs": "convert -i \"C:\\Users\\steph\\OneDrive\\Desktop\\MarkerWatch\\PULLS - SC - TANJA video home.00.temp\"",
+      "commandLineArgs": "--help",
       "ErrorString": "Invalid property identifier character: <. Path 'profiles['Maptz.CliTools.TimeCodeDocument.Parser.Tool'].commandName', line 5, position 0."
     }
   }
